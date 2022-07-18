@@ -1,0 +1,50 @@
+DISCORD SERVER VERIFIED TAG
+_ _ _ _ _ _ _ _ _ _ _ _
+
+
+window.webpackChunkdiscord_app.push([
+    [Math.random()], {}, (req) => {
+        for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {
+            if (m.default && m.default.getGuild !== undefined) {
+                return m.default.getGuild('SERVER_ID').features.add('VERIFIED')
+            }
+            if (m.getCurrentUser !== undefined) {
+                return m.getGuild('SERVER_ID').features.add('VERIFIED')
+            }
+        }
+    }
+]);
+
+_ _ _ _ _ _ _ _ _ _ _ _
+
+Credits: pixel_boi
+Code Version: 1.0
+
+_______________________________________
+_______________________________________
+
+
+DISCORD SERVER PARTNERED TAG
+_ _ _ _ _ _ _ _ _ _ _ _
+
+
+window.webpackChunkdiscord_app.push([
+    [Math.random()], {}, (req) => {
+        for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {
+			if (m.default && m.default.getGuild !== undefined) {
+                return m.default.getGuild('SERVER_ID').features.add('PARTNERED')
+            }
+            if (m.getCurrentUser !== undefined) {
+                return m.getGuild('SERVER_ID').features.add('PARTNERED')
+            }
+          
+        }
+    }
+]);
+
+_ _ _ _ _ _ _ _ _ _ _ _
+
+Credits: pixel_boi
+Code Version: 1.0
+
+VISIT REPO: https://github.com/pixelboiworld/Discord-Tricks-Hacks
